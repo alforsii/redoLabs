@@ -56,14 +56,14 @@ const bestYearAvg = moviesArr => {
             sortByYear[movie.year].push(movie)
         }
     })
-    let highRate = 0
-    let theYear
+    let bestAvgRate = 0
+    let bestYear
     for(let year in sortByYear) {
-        if(ratesAverage(sortByYear[year]) > highRate) {
-            highRate = ratesAverage(sortByYear[year])
-            theYear = year
+        if(ratesAverage(sortByYear[year]) > bestAvgRate) {
+            bestAvgRate = ratesAverage(sortByYear[year])
+            bestYear = year
         }
     }
 
-    return `The best year was ${theYear} with an average rate of ${highRate}`;
+    return `The best year was ${bestYear} with an average rate of ${bestAvgRate}`;
 }
