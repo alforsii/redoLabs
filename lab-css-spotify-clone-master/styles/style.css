@@ -1,0 +1,136 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.spotify-brand {
+    width: 100px;
+}
+#showcase-img {
+    width: 100vw;
+}
+.showcase {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.showcase-header {
+    position: absolute;
+    color: #fff;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.showcase-header h2 {
+    font-size: 5vw;
+}
+.showcase-header p {
+    font-size: 1.7vw;
+    font-weight: lighter;
+    margin: 0;
+    opacity: 0.8;
+}
+
+/* container */
+.container {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    margin: 0 auto;
+    padding: 0;
+}
+.container h3 {
+    text-align: center;
+}
+.container-body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-body div {
+    width: 30vw;
+    height: 250px;
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-body h4 {
+    color:  #00B172;
+    font-size: 1.2rem;
+}
+.container-body p {
+    word-wrap: break-word;
+    word-break: break-all;
+    color: #1A1A1A;
+    opacity: 0.5;
+    text-align: center;
+}
+.container-icons {
+    width: 100px;
+}
+
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #00B172;
+    color: #fff;
+    padding: 80px;
+    position: relative;
+}
+.footer div:first-child {
+    flex: 1;
+}
+.footer-nav {
+    width: 350px;
+}
+.footer hr {
+    background-color: #fff;
+    height: 3px;
+    margin-right: 40px;
+}
+.footer h3 {
+    font-size: 40px;
+    text-align: left;
+}
+.footer p {
+    font-size: 20px;
+    text-align: left;
+}
+#footer-img {
+    width: 300px;
+   
+}
+#logo-white {
+    position: absolute;
+    width: 100px;
+}
+@media(max-width: 1000px) {
+    #footer-img {
+        width: 100%;
+        max-width: 500px;
+    }
+    #logo-white {
+        display: none;
+    }
+}
