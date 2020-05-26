@@ -56,25 +56,32 @@ class War {
     addSaxon(saxon) {
         this.saxonArmy = [...this.saxonArmy, saxon]
     }
+
+    randomize(arr) {
+        const randomNumber = Math.floor(Math.random()*arr.length)
+        return {
+            solder: arr[randomNumber],
+            randomNumber
+        }
+    }
+
+
     vikingAttack() {
-        const randomV = Math.floor(Math.random()*this.vikingArmy.length)
-        const theViking = this.vikingArmy[randomV]
-        const randomS = Math.floor(Math.random()*this.saxonArmy.length)
-        const theSaxon = this.saxonArmy[randomS]
+        const {solder: theViking} = this.randomize(this.vikingArmy)
+        const {solder: theSaxon, randomNumber: currSaxon} = this.randomize(this.saxonArmy)
         const result = theSaxon.receiveDamage(theViking.attack())
         if(theSaxon.health <= 0) {
-            this.saxonArmy = this.saxonArmy.filter((saxon, i) => i !== randomS)
+            this.saxonArmy = this.saxonArmy.filter((saxon, i) => i !== currSaxon)
         }
         return  result
     }
+  
     saxonAttack() {
-        const randomV = Math.floor(Math.random()*this.vikingArmy.length)
-        const theViking = this.vikingArmy[randomV]
-        const randomS = Math.floor(Math.random()*this.saxonArmy.length)
-        const theSaxon = this.saxonArmy[randomS]
+        const {solder: theSaxon} = this.randomize(this.saxonArmy)
+        const {solder: theViking,  randomNumber: currViking} = this.randomize(this.vikingArmy)
         const result = theViking.receiveDamage(theSaxon.attack())
         if(theViking.health <= 0) {
-            this.vikingArmy = this.vikingArmy.filter((viking, i) => i !== randomV)
+            this.vikingArmy = this.vikingArmy.filter((viking, i) => i !== currViking)
         }
         return  result
     }
