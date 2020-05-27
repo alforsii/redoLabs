@@ -91,7 +91,7 @@ function renderPrice() {
     theState[i]? panel.style.display = 'block':panel.style.display = 'none'
     theState[i]? total += Number(price.slice(1)):''
   })
-  document.querySelector('.panel.price strong').innerHTML = '$'+total
+  document.querySelector('.panel.price strong').innerHTML = 'Total: $'+total
 }
 
 renderEverything();
