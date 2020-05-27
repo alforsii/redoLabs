@@ -1,0 +1,88 @@
+/* #FF4500 - orange red */
+
+.navbar {
+    height: 100px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-brand {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#my-nav-link:hover {
+    color: red;
+}
+#navbarDropdownMenuLink:hover {
+    color: red;
+}
+#carouselExampleFade h5 {
+    font-size: 35px;
+}
+#carouselExampleFade p {
+    font-size: 20px;
+}
+.carousel-caption {
+    padding: 20px;
+    background-color: rgb(0, 0, 0,0.3);
+}
+.showcase-footer {
+    background-color: #FF4500;
+    width: 100vw;
+   margin-bottom: 50px;
+   padding: 0 70px;
+}
+.showcase-footer h1,
+.showcase-footer h3 {
+    text-align: center;
+}
+.showcase-footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+.card-img-top {
+    margin-bottom: 10px;
+}
+.span-red a {
+    color: #FF4500;;
+}
+.hr-red {
+    background-color: #FF4500;
+    height: 3px;
+}
+
+footer {
+    background-color: #444;
+    color: #fff;;
+}
+footer a{
+    color: rgb(192, 190, 190);
+    font-size: 14px;
+   
+    padding: 5px 0;
+}
+footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+footer p {
+    font-size: 14px;
+    color: rgb(192, 190, 190);
+    border-bottom: 1px dotted;
+}
+footer .container .row div:first-child p {
+    border: none;
+}
+.footer-copyright {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 30px;
+    font-size: 12px;
+    padding-left: 70px;
+}
