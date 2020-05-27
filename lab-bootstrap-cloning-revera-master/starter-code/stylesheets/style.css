@@ -49,6 +49,12 @@
 .card-img-top {
     margin-bottom: 10px;
 }
+h6 {
+    font-size: 14px;
+}
+.card-text {
+    font-size: 14px;
+}
 .span-red a {
     color: #FF4500;;
 }
