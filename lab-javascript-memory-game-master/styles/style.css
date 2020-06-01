@@ -1,8 +1,5 @@
 body {
   margin: 0;
-
-  /* background: url('../img/background.jpg') no-repeat; */
-  /* background: url('../img/background.jpg') no-repeat; */
   background-size: cover;
   font-family: 'Helvetica Neue', Arial, sans-serif;
 
@@ -10,14 +7,6 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-}
-#btnGoBack {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  color: #fff;
-  font-size: 16px;
-  text-decoration: none;
 }
 .score-div {
   display: flex;
@@ -86,6 +75,7 @@ body {
   font-size: 30px;
   font-family: Arial;
   width: 300px;
+  height: 400px;
   padding-top: 0;
   /* margin-left: 75%; */
 }

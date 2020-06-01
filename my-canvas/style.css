@@ -13,14 +13,6 @@ body {
   min-height: 100vh;
   margin: 0;
 }
-#btnGoBack {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  color: #fff;
-  font-size: 16px;
-  text-decoration: none;
-}
 #canvas {
   background: #f0f0f0;
   border-radius: 5px;
