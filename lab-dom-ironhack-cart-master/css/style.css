@@ -12,9 +12,11 @@ body {
   position: absolute;
   top: 20px;
   left: 20px;
-  color: #fff;
+  color: #333;
   font-size: 16px;
   text-decoration: none;
+  cursor: pointer;
+  z-index: 1000;
 }
 
 button,
