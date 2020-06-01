@@ -11,19 +11,11 @@ White: #FFF
   justify-content: space-between;
   align-items: center;
 }
-#btnGoBack {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  color: #fff;
-  font-size: 16px;
-  text-decoration: none;
-}
 
-.spotify-brand {
+.spotifyBrand {
   width: 100px;
 }
-#showcase-img {
+#showcaseImg {
   width: 100vw;
 }
 .showcase {
@@ -33,7 +25,7 @@ White: #FFF
   justify-content: center;
   align-items: center;
 }
-.showcase-header {
+.showcaseHeader {
   position: absolute;
   color: #fff;
   /* background-color: rgba(0, 0, 0, 0.3); */
@@ -43,14 +35,17 @@ White: #FFF
   justify-content: center;
   align-items: center;
 }
-.showcase-header h2 {
+.showcaseHeader h2 {
   font-size: 5vw;
+  color: #fff;
 }
-.showcase-header p {
-  font-size: 1.7vw;
+.showcaseHeader p {
+  font-size: 2vw;
   font-weight: lighter;
+  color: #fff;
+  letter-spacing: 1.2px;
   margin: 0;
-  opacity: 0.8;
+  /* opacity: 0.8; */
 }
 
 /* container */
@@ -65,12 +60,12 @@ White: #FFF
 .container h3 {
   text-align: center;
 }
-.container-body {
+.containerBody {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.container-body div {
+.containerBody div {
   width: 30vw;
   height: 250px;
   display: flex;
@@ -80,18 +75,18 @@ White: #FFF
   justify-content: center;
   align-items: center;
 }
-.container-body h4 {
+.containerBody h4 {
   color: #00b172;
   font-size: 1.2rem;
 }
-.container-body p {
+.containerBody p {
   word-wrap: break-word;
   word-break: break-all;
   color: #1a1a1a;
   opacity: 0.5;
   text-align: center;
 }
-.container-icons {
+.containerIcons {
   width: 100px;
 }
 
@@ -109,7 +104,7 @@ White: #FFF
 .footer div:first-child {
   flex: 1;
 }
-.footer-nav {
+.footerNav {
   width: 350px;
 }
 .footer hr {
@@ -120,24 +115,30 @@ White: #FFF
 .footer h3 {
   font-size: 40px;
   text-align: left;
+  color: #fff;
 }
 .footer p {
   font-size: 20px;
   text-align: left;
 }
-#footer-img {
+#footerImg {
   width: 300px;
 }
-#logo-white {
+#logoWhite {
   position: absolute;
   width: 100px;
 }
 @media (max-width: 1000px) {
-  #footer-img {
+  #footerImg {
     width: 100%;
     max-width: 500px;
   }
-  #logo-white {
+  #logoWhite {
     display: none;
+  }
+}
+@media (max-width: 600px) {
+  .showcaseHeader p {
+    font-size: 3.5vw;
   }
 }
