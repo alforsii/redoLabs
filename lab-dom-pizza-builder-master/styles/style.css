@@ -80,6 +80,14 @@ body {
   color: black;
   background: white;
 }
+#btnGoBack {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
 
 ol,
 ul {

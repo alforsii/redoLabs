@@ -5,11 +5,19 @@ body {
   /* background: url('../img/background.jpg') no-repeat; */
   background-size: cover;
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  
+
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+}
+#btnGoBack {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
 }
 .score-div {
   display: flex;
