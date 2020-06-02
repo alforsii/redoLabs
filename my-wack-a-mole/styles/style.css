@@ -1,0 +1,36 @@
+#gameBoard {
+  width: 80%;
+  height: 600px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.row {
+  /* border: 1px solid black; */
+  height: 33%;
+  width: 100%;
+  display: flex;
+}
+
+.col {
+  background: url('../img/mole-dom2.gif') no-repeat -20px 15px; /*these x and y*/
+  background-size: 330px;
+  /* border: 1px solid black; */
+  background-color: chartreuse;
+  width: 33.3%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mole {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+/* img {
+  background: chartreuse;
+} */
