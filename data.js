@@ -271,4 +271,25 @@ const labs = [
     ext: 'png',
     path: './acme-web-design-clone/index.html',
   },
+  {
+    name: 'Wack a mole',
+    completed: true,
+    imgUrl: './labImages/',
+    imgName: 'wack-a-mole',
+    type: 'Game - HTML/CSS/JavaScript',
+    description:
+      "It's famous game. You need to wack the mole to get score. If you miss you loose points. Good luck 👍.",
+    ext: 'png',
+    path: './my-wack-a-mole/index.html',
+  },
+  {
+    name: 'Packman',
+    completed: false,
+    imgUrl: './labImages/',
+    imgName: 'packman',
+    type: 'Gama Animation - canvas',
+    description: 'Canvas animation.',
+    ext: 'png',
+    path: './canvas-game-pacman-ghost/',
+  },
 ];
