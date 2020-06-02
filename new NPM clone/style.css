@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins';
+   /* margin-right: 0.5em; */
+   border-top: 2px solid red;
+   
+}
+
+/* ---------------------------------header----------------------------- */
+.blackHeart{
+    width: 20px;
+    margin: 0 10px 0 20px;;
+}
+.npm-logo{
+    width: 75px;
+    margin:20px;
+}
+.search-bar{
+    width: 20px;
+    background-color:rgb(248, 247, 247); 
+     padding: 12px;
+}
+
+.search-btn{
+    font-size: 15px;
+    padding: 12px;
+    background-color: red;
+    color: white;
+}
+.join-btn{
+    border: 1px solid gray;
+    margin-left: 60px;
+}
+
+
+.main-div{
+    display: flex;
+    justify-content: space-between;   
+    flex-direction: column; 
+}
+
+.child-div{   
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 5px;
+    align-items: center;
+}
+.nav1{
+    padding: 10px;
+    border-bottom: 1px solid rgb(226, 222, 222);
+}
+.nav2{
+   flex-wrap: wrap;
+}
+.child-div1{
+    box-sizing: border-box;
+    width: 47%;
+}
+
+.child-div a{   
+    text-decoration: none;
+    color: black;
+}  
+.child-div2 a{
+    font-size: 13px;
+    padding: 5px 20px;
+    color: black;
+}
+.header form{
+    padding: 0 ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;   
+  
+  }
+
+nav a{
+    text-decoration: none;
+    padding: 0 7px; 
+    color: black;
+    
+}
+nav ul{
+    list-style: none; 
+    display: flex;    
+    justify-content: space-evenly;
+    align-items: center;
+      min-width: 600px;   
+}
+input{
+    width: 200px;
+    padding: 12px;
+    font-size: 15px;
+    background-color:rgb(248, 247, 247); 
+    border: none;
+}
+
+/* ---------------------------------sec-1----------------------------- */
+.sec-1{
+    background-color: rgb(243, 239, 233);
+    height: 770px;
+   
+}
+.sec-1 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 40px 0 35px;
+   
+}
+.sec-1 article{ 
+    margin: 50px;
+    text-decoration: none;
+    padding: 20px;
+   display:flex; 
+   justify-content: flex-start;
+   align-items: center;
+   flex-flow: wrap;
+    
+}
+.sec1-btn1{
+    font-size: 1.3em;
+    color: white;
+    padding: 15px 70px;
+    margin: 15px;
+    text-decoration: none;
+    background-color: red;
+}
+.sec1-btn2{
+    font-size: 1.3em;
+    color: black;
+    padding: 15px 59px;
+    margin: 15px;
+    text-decoration: none;
+    background-color: white;
+}
+.top-p{
+    font-size: 18px;
+    padding-top: 25px;
+}
+.sec-1 p{
+    width: 550px;
+   text-align: center;
+}
+.sec-1 h1{
+    font-size: 35px;
+     font-weight: bold;
+}
+@media (min-width:950px){
+    .sec-1 h1{
+        font-size: 80px;
+    }
+    .top-p{
+        font-size: 20px;
+        padding-top: 25px;
+        text-align: center;
+    }
+    .sec-1 p{
+         width: 550px;
+        text-align: center;
+    }
+
+    input {
+        padding: 10px;
+        width: 800px;
+        font-size: 20px;
+         /* background-color: rgb(248, 247, 247); */
+        font-family: 'Times New Roman', Times, serif;
+        background-color:rgb(248, 247, 247); 
+        
+    }
+
+}
+
+.sec-1 span{
+    color: red;
+    text-decoration: underline red;
+}
+
+
+
+
+/* ---------------------------------sec-2----------------------------- */
+.triangle-hexagon{
+    width: 240px;
+    margin: 20px;
+}
+.sec-2 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    padding: 50px 40px 0 35px;
+}
+.sec-2 h1{
+    margin: 30px 10px;
+    font-size: 30px;
+    text-align: center;
+}
+.sec-2 p{
+font-size: 15px;
+}
+@media (min-width:950px){
+    .sec-2 h1{
+        font-size: 40px;
+         font:  bold;
+    }
+    .sec-2 p{
+        width: 850px;
+        text-align: center;
+        margin: 40px;
+    }
+    .org{
+        font-size: 1.5em;
+        color: white;
+        text-decoration: none;
+        /* padding: 10px 200px; */
+        background-color: black;
+      
+    }
+    .sec-3 article{
+        max-width: 200px;
+        padding: 30px;
+    }
+}
+
+
+
+
+
+/* ---------------------------------sec-3----------------------------- */
+.sec-3 img{
+    width: 45px;
+}
+.sec-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec-3 > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 20px 50px 10px; 
+    flex-wrap: wrap;
+}
+.sec-3 article{
+    max-width: 300px;
+    padding: 20px;
+}
+.org{
+    color: white;
+    text-decoration: none;
+    padding: 20px 100px;
+    background-color: black;  
+}

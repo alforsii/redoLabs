@@ -1,0 +1,6 @@
+/* styles/style.css */
+
+canvas,
+#rss {
+  border: 1px solid red;
+}
