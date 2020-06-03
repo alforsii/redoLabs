@@ -199,7 +199,7 @@ const labs = [
     completed: true,
     imgUrl: './labImages/',
     imgName: 'advanced-algorithms',
-    type: 'Code',
+    type: 'HTML/CSS/JavaScript',
     description:
       "In this exercise we will implement two different abstract data types that are very common: stacks and queues. Let's see what both data structures to understand how they work.",
     ext: 'png',
@@ -344,7 +344,7 @@ const labs = [
   },
   {
     name: 'Canvas bricks breaker',
-    completed: true,
+    completed: 'partial',
     imgUrl: './labImages/',
     imgName: 'bricks-breaker',
     type: 'HTML/CSS/JavaScript - canvas',
@@ -353,8 +353,8 @@ const labs = [
     path: './canvas/newgame/index.html',
   },
   {
-    name: 'Canvas sky shooting game',
-    completed: true,
+    name: 'Canvas sky shooter game',
+    completed: 'partial',
     imgUrl: './labImages/',
     imgName: 'sky-shooter',
     type: 'HTML/CSS/JavaScript - canvas',
