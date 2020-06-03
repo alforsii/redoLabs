@@ -368,7 +368,8 @@ const labs = [
     imgUrl: './labImages/',
     imgName: 'my-book-list',
     type: 'HTML/CSS/JavaScript - DOM manipulation',
-    description: 'The book list. Add, remove, update and delete BookList.',
+    description:
+      'The book list. Add, remove, update and delete BookList. In this lab I used localStorage to save the data as database',
     ext: 'png',
     path: './bookListApp/index.html',
   },
