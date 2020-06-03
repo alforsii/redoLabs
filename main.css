@@ -27,7 +27,7 @@
   border-radius: 50%;
 }
 #my-contacts {
-  position: absolute;
+  position: fixed;
   top: 25px;
   right: 20px;
 }
