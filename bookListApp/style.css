@@ -1,5 +1,35 @@
 .main {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-start;
+  /* flex-wrap: wrap; */
+}
+.hideForm {
+  display: none;
+}
+.showForm {
+  display: block;
+}
+
+#editIcon,
+#deleteIcon {
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+
+#editIcon:hover {
+  color: green;
+  cursor: pointer;
+}
+#deleteIcon:hover {
+  color: red;
+  cursor: pointer;
+}
+@media (max-width: 700) {
+  #main {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
 }

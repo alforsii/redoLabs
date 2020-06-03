@@ -362,4 +362,14 @@ const labs = [
     ext: 'png',
     path: './canvas/shooting-game/index.html',
   },
+  {
+    name: 'My BookList',
+    completed: true,
+    imgUrl: './labImages/',
+    imgName: 'my-book-list',
+    type: 'HTML/CSS/JavaScript - DOM manipulation',
+    description: 'The book list. Add, remove, update and delete BookList.',
+    ext: 'png',
+    path: './bookListApp/index.html',
+  },
 ];
