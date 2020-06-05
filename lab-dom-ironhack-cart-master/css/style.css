@@ -8,17 +8,6 @@ body {
   line-height: 1.5;
   color: #2d354c;
 }
-#btnGoBack {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  color: #333;
-  font-size: 16px;
-  text-decoration: none;
-  cursor: pointer;
-  z-index: 1000;
-}
-
 button,
 input {
   font: inherit;
