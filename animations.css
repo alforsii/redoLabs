@@ -1,0 +1,119 @@
+.container_animation {
+  margin: 20px 0 0 20px;
+  display: flex;
+}
+.circle,
+.triangle,
+.square {
+  height: 30px;
+  width: 30px;
+}
+
+.circle {
+  background: rgb(235, 70, 78);
+  border-radius: 50%;
+  border: 3px solid rgb(233, 38, 47);
+  margin: 10px;
+  animation-name: circle;
+  animation-duration: 2s;
+  position: relative;
+  animation-iteration-count: 6;
+  animation-timing-function: ease-in;
+  animation-direction: alternate;
+}
+
+@keyframes circle {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 500px;
+  }
+}
+
+.square {
+  background: #2890f8;
+  margin: 10px;
+  border: 2px solid #d6d8da;
+  animation-name: square;
+  animation-duration: 10s;
+  animation-delay: 2s;
+  position: relative;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes square {
+  0% {
+    background-color: #2890f8;
+    left: 0px;
+    top: 0px;
+  }
+  20% {
+    background-color: rgb(60, 60, 236);
+    left: -10vw;
+    top: 0px;
+  }
+  40% {
+    background-color: rgb(60, 60, 236);
+    left: 100vw;
+    top: 0px;
+  }
+  50% {
+    background-color: rgb(91, 91, 231);
+    left: 100vw;
+    top: -500px;
+  }
+  60% {
+    background-color: yellow;
+    left: -100vw;
+    top: 0;
+  }
+  100% {
+    background-color: #2890f8;
+    left: 0;
+    top: 0;
+  }
+}
+
+.triangle {
+  margin: 10px;
+  border-style: solid;
+  border-color: transparent transparent rgb(11, 184, 117);
+  border-width: 0 20px 30px 20px;
+  animation-name: triangle;
+  animation-duration: 5s;
+  position: relative;
+  animation-delay: 4s;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes triangle {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  /* 15% {
+    left: 75px;
+    top: 75px;
+  }
+  30% {
+    left: -75px;
+    top: 150px;
+  } */
+  45% {
+    left: 100vw;
+    top: 110vh;
+  }
+  50% {
+    left: -100vw;
+    top: 110vh;
+  }
+  100% {
+    left: 0;
+    top: 0;
+  }
+}

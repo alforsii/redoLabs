@@ -1,0 +1,44 @@
+.container_animation {
+  margin: 20px 0 0 20px;
+  display: flex;
+}
+
+.circle {
+  background: #456789;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+  animation-name: circle;
+  animation-duration: 2s;
+  position: relative;
+  animation-iteration-count: 10;
+  animation-timing-function: ease-in;
+  animation-direction: alternate;
+}
+.square {
+  background: #456789;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+  animation-name: square;
+  animation-duration: 5s;
+  position: relative;
+  animation-iteration-count: 10;
+  animation-delay: 5s;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+.triangle {
+  margin: 10px;
+  border-style: solid;
+  border-color: transparent transparent #456789 transparent;
+  border-width: 0 20px 30px 20px;
+  animation-name: triangle;
+  animation-duration: 3s;
+  position: relative;
+  animation-iteration-count: 10;
+  animation-delay: 2s;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
